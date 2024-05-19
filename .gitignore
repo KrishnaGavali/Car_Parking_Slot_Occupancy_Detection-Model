@@ -1,0 +1,3 @@
+# Ignore all files in the Data directory
+Data/Raw
+__pycache__

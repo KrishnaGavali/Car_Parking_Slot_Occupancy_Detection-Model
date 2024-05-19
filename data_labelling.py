@@ -2,14 +2,15 @@
 
 import cv2  # Import the OpenCV library for image and video processing
 import pickle  # Import the pickle module for object serialization
-from config import videoPath  # Import the video path from a configuration file
+from config import (
+    videoPath,
+    frame_list,
+)  # Import the video path and frame list from a configuration file
 
 # Initialize counters for parked and vacant images
 parked_image_counter = 0
 vacant_image_counter = 0
 
-# List of frame numbers to be processed
-frame_list = [25, 75, 125, 175, 225, 275, 325, 375, 425, 475, 525, 575, 625, 675]
 
 # Load the list of Regions of Interest (ROI) from a pickle file
 with open("ROI.pkl", "rb") as f:
