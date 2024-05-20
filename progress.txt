@@ -7,8 +7,8 @@ Day : 2 (Done)
 Step : 2 (19 - 5 - 2024) ==> Data Collection and Manuel Labelling for ANN Traning,Neural Network Traning and Optimization
 
 
-Day : 3
-Step : 3 (20 - 5 - 2024) ==> 
+Day : 3 (Done)
+Step : 3 (20 - 5 - 2024) ==> Optimization for Realtime Classification
 
 
 Future Works : 
