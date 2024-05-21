@@ -5,7 +5,7 @@ This project uses an Artificial Neural Network (ANN) to classify parking spaces 
 ## 📑 Table of Contents
 
 - [📖 Description](#-description)
-- [⚙️ Installation](#️-installation)
+- [⚙️ Installation](#-installation)
 - [🚀 How to Run](#-how-to-run)
 - [🤝 Contributions](#-contributions)
 - [📝 Contact](#-contact)
@@ -13,6 +13,8 @@ This project uses an Artificial Neural Network (ANN) to classify parking spaces 
 ## 📖 Description
 
 Parking Space Classification is a machine learning project that leverages an Artificial Neural Network to identify whether parking spaces are vacant or occupied. The primary goal is to provide a reliable system for monitoring parking lots, which can be integrated into smart parking solutions.
+
+![Parking Example](./Data/readme_photo.png)
 
 ## ⚙️ Installation
 
@@ -43,11 +45,13 @@ To set up this project on your local machine, follow these steps:
 4. **Install the required dependencies**:
 
    ```sh
-   pip install -r module.txt
+   pip install -r module.txt # Be sure you are in the project folder and conda environment is active
    ```
 
-5. **Follow the rest of the instructions to run the code**
-   [🚀 How to Run](#how-to-run)
+   _If you're using VS Code, select the conda environment and install the dependencies using pip._
+
+5. **Follow the rest of the instructions to run the code:**
+   [🚀 How to Run](#-how-to-run)
 
 ---
 
@@ -61,7 +65,7 @@ To set up this project on your local machine, follow these steps:
 2. **Run the file `data_labelling.py`**:
 
    - Run the file.
-   - Use "0" on the NumPad to label vacant spaces and "." for occupied spaces.(Be sure NumLock is on 😂)
+   - Use "0" on the NumPad to label vacant spaces and "." for occupied spaces (be sure NumLock is on 😂).
    - Note: You will need to label/sort 1000+ images for training.
 
 3. **Run the `model.ipynb`**:
@@ -71,6 +75,10 @@ To set up this project on your local machine, follow these steps:
 
 4. **Run the file `mainV2.py`**:
    - Simply run the file.
+
+**Or**
+
+1. **Run the file `mainV2.py` Directly**:
 
 ---
 
@@ -90,8 +98,8 @@ To set up this project on your local machine, follow these steps:
 If you have any questions or feedback, please reach out to:
 
 - [Krishna Gavali on GitHub](https://github.com/KrishnaGavali)
-- [Krishna Gavali on LinkedIn](https://www.linkedin.com/in/krishna-gavali/)
-- [Krishna Gavali on Gmail](https://mail.google.com/mail/u/0/#inbox)
+- [Krishna Gavali on LinkedIn](https://www.linkedin.com/in/krishna-gavali-76a11a273/)
+- Krishna Gavali on Gmail: **k1810g2005@gmail.com**
 
 Feel free to get in touch!
 
